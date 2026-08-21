@@ -756,7 +756,7 @@ export default {
 
 // --- Vercel 入口 ---
 // Vercel 函数最大执行时长（多源搜索需要，默认 10s 会掐断搜索）
-export const maxDuration = 60;
+export const maxDuration = 15;
 
 export async function vercelHandler(req, res) {
   // 从请求头获取真实 IP
