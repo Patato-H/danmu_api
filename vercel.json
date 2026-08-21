@@ -6,11 +6,6 @@
       "use": "@vercel/node"
     }
   ],
-  "functions": {
-    "danmu_api/worker.js": {
-      "maxDuration": 60
-    }
-  },
   "routes": [
     {
       "src": "/",
